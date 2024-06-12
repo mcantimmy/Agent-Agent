@@ -49,3 +49,5 @@ if st.button("Generate Response"):
     with st.spinner("Processing..."):
         response = engineer.run(f"User input: \'{question}\'", stream=True)
         st.write(response)
+
+#Notes - bad at pip installing, need log
