@@ -50,4 +50,4 @@ if st.button("Generate Response"):
         response = engineer.run(f"User input: \'{question}\'", stream=True)
         st.write(response)
 
-#Notes - bad at pip installing, need log
+#Notes - bad at pip installing, need log, or retry execution
